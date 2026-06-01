@@ -14,6 +14,8 @@ def main():
             )
         except Exception as e:
             raise Exception(f"Error: Cant continue because of: {e}")
+    
+    print("SSH service is running")
 
 
 
